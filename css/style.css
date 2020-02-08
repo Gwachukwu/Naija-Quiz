@@ -1,0 +1,24 @@
+body{
+    background-image: url(../img/bacground\ image.jpeg);
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+h1{
+    font-size: 5rem;
+    font-weight: bold;
+}
+.quiz-section{
+    margin: auto;
+    text-align: center;
+}
+input[type=radio]{
+    transform: scale(1.5);
+}
+@media (max-width : 425px){
+    body h1{
+        font-size: unset;
+    }
+}
+
